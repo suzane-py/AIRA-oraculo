@@ -1,0 +1,26 @@
+# Node/React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+
+# Python/Backend
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.env
+backend/.DS_Store
+backend/venv/
+backend/.pytest_cache/
+backend/*.sqlite3
+backend/*.db
+
+# Docker
+**/pgdata/
+**/pgdata/*
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
