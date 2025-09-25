@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+*.log
+*.env
+*.DS_Store
+dist
+build
+coverage
+.vscode
+.idea
+*.tgz
+*.zip
+*.tar.gz
