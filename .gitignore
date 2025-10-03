@@ -1,0 +1,101 @@
+# Environment variables (IMPORTANTE!)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# OS específicos
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+.npm
+.eslintcache
+
+# Python (Backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Build directories
+build/
+temp/
+tmp/
+
+# Sensitive files
+secrets/
+keys/
+certificates/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Adições sugeridas:
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Sistema de controle de versão
+.svn/
+.hg/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache adicional
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# Ferramentas de desenvolvimento
+.nyc_output/
+coverage/
+*.lcov
+
+# Arquivos temporários do sistema
+ehthumbs.db
+Desktop.ini
+.Trash-*
+
+# IDEs adicionais
+*.code-workspace
+.fleet/
+.devcontainer/
